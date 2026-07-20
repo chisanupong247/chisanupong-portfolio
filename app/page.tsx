@@ -1,0 +1,29 @@
+import AboutSection from "@/components/AboutSection";
+import CertificationsSection from "@/components/CertificationsSection";
+import ContactSection from "@/components/ContactSection";
+import ExperienceSection from "@/components/ExperienceSection";
+import Footer from "@/components/Footer";
+import HeroSection from "@/components/HeroSection";
+import Navbar from "@/components/Navbar";
+import ProjectsSection from "@/components/ProjectsSection";
+import ScrollToTop from "@/components/ScrollToTop";
+import SkillsSection from "@/components/SkillsSection";
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <ExperienceSection />
+        <CertificationsSection />
+        <ContactSection />
+      </main>
+      <Footer />
+      <ScrollToTop />
+    </>
+  );
+}

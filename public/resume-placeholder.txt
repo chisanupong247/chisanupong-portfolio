@@ -1,0 +1,6 @@
+THANAWAT KITTISAK — RÉSUMÉ PLACEHOLDER
+
+Replace this file with your final résumé PDF and update the link in components/HeroSection.tsx.
+
+Focus: Business Analysis / System Analysis / Data Analytics
+Email: hello@example.com
