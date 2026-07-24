@@ -21,12 +21,12 @@ export const skillGroups: SkillGroup[] = [
     description: "From ambiguous needs to testable, shared understanding.",
     icon: GitBranch,
     skills: [
-      { name: "Requirement Gathering", level: "Advanced" },
+      { name: "Requirement Gathering", level: "Intermediate" },
       { name: "Business Process Analysis", level: "Intermediate" },
-      { name: "Use Case Diagram", level: "Advanced" },
-      { name: "Flowchart", level: "Advanced" },
+      { name: "Use Case Diagram", level: "Intermediate" },
+      { name: "Flowchart", level: "Intermediate" },
       { name: "BPMN", level: "Intermediate" },
-      { name: "Wireframing", level: "Intermediate" },
+      { name: "BMC", level: "Intermediate" },
     ],
   },
   {
@@ -39,7 +39,6 @@ export const skillGroups: SkillGroup[] = [
       { name: "Power BI", level: "Advanced" },
       { name: "Pandas", level: "Intermediate" },
       { name: "Data Visualization", level: "Advanced" },
-      { name: "Machine Learning", level: "Intermediate" },
     ],
   },
   {
@@ -47,11 +46,11 @@ export const skillGroups: SkillGroup[] = [
     description: "Building clear prototypes to make ideas testable.",
     icon: Code2,
     skills: [
-      { name: "Next.js", level: "Intermediate" },
-      { name: "TypeScript", level: "Intermediate" },
-      { name: "Tailwind CSS", level: "Intermediate" },
+      { name: "Next.js", level: "Basic" },
+      { name: "TypeScript", level: "Basic" },
+      { name: "Tailwind CSS", level: "Basic" },
       { name: ".NET MAUI", level: "Basic" },
-      { name: "REST API", level: "Intermediate" },
+      { name: "Python", level: "Intermediate" },
     ],
   },
   {
@@ -61,12 +60,10 @@ export const skillGroups: SkillGroup[] = [
     skills: [
       { name: "Figma", level: "Intermediate" },
       { name: "GitHub", level: "Intermediate" },
-      { name: "VS Code", level: "Advanced" },
+      { name: "VS Code", level: "Intermediate" },
       { name: "MongoDB", level: "Basic" },
       { name: "RapidMiner", level: "Intermediate" },
       { name: "n8n", level: "Intermediate" },
-      { name: "Gemini API", level: "Intermediate" },
-      { name: "ESP32", level: "Intermediate" },
     ],
   },
 ];

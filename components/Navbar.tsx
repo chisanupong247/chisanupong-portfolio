@@ -8,7 +8,7 @@ const navItems = [
   ["About", "about"],
   ["Projects", "projects"],
   ["Skills", "skills"],
-  ["Experience", "experience"],
+  ["Activities", "experience"],
   ["Certifications", "certifications"],
   ["Contact", "contact"],
 ] as const;
@@ -60,9 +60,9 @@ export default function Navbar() {
           onClick={() => setOpen(false)}
         >
           <span className="grid size-10 place-items-center rounded-2xl bg-ink text-sm text-cyan">
-            TK
+            CI
           </span>
-          <span className="hidden sm:inline">Thanawat.</span>
+          <span className="hidden sm:inline">Chisanupong Inlin.</span>
         </a>
 
         <div className="hidden items-center gap-1 lg:flex">

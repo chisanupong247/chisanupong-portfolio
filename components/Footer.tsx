@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container-shell flex flex-col items-center justify-between gap-6 py-8 sm:flex-row">
         <div className="text-center sm:text-left">
           <p className="font-black tracking-[-0.02em] text-ink">
-            Thanawat Kittisak.
+            Chisanupong Inlin.
           </p>
           <p className="mt-1 text-xs text-slate-400">
             © {new Date().getFullYear()} Built with curiosity and clear intent.
@@ -14,9 +14,9 @@ export default function Footer() {
         </div>
         <div className="flex items-center gap-2">
           {[
-            { label: "GitHub", href: "https://github.com/", icon: Github },
-            { label: "LinkedIn", href: "https://linkedin.com/", icon: Linkedin },
-            { label: "Email", href: "mailto:hello@example.com", icon: Mail },
+            { label: "GitHub", href: "https://github.com/chisanupong247", icon: Github },
+            { label: "LinkedIn", href: "https://www.linkedin.com/in/chisanupong-inlin", icon: Linkedin },
+            { label: "Email", href: "mailto:chisanupong2427@gmail.com", icon: Mail },
           ].map(({ label, href, icon: Icon }) => (
             <a
               key={label}

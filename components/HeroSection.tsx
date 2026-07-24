@@ -1,5 +1,4 @@
 import {
-  ArrowDownRight,
   ArrowRight,
   Download,
   Github,
@@ -10,9 +9,9 @@ import {
 import Image from "next/image";
 
 const socialLinks = [
-  { label: "GitHub", href: "https://github.com/", icon: Github },
-  { label: "LinkedIn", href: "https://linkedin.com/", icon: Linkedin },
-  { label: "Email", href: "mailto:hello@example.com", icon: Mail },
+  { label: "GitHub", href: "https://github.com/chisanupong247", icon: Github },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/chisanupong-inlin", icon: Linkedin },
+  { label: "Email", href: "mailto:chisanupong2427@gmail.com", icon: Mail },
 ];
 
 export default function HeroSection() {
@@ -39,8 +38,8 @@ export default function HeroSection() {
             Hello, I&apos;m
           </p>
           <h1 className="max-w-3xl text-5xl font-black leading-[0.95] tracking-[-0.06em] text-ink sm:text-6xl lg:text-7xl xl:text-[5.5rem]">
-            Thanawat
-            <span className="block text-blue">Kittisak.</span>
+            Chisanupong
+            <span className="block text-blue">Inlin.</span>
           </h1>
           <p className="mt-7 text-base font-bold text-navy sm:text-lg">
             Business Analyst <span className="text-cyan">/</span> System Analyst{" "}
@@ -81,22 +80,14 @@ export default function HeroSection() {
         </div>
 
         <div className="relative mx-auto w-full max-w-xl lg:ml-auto">
-          <div className="absolute -left-7 top-16 hidden rounded-2xl bg-white p-4 shadow-soft sm:block">
-            <p className="text-[10px] font-black uppercase tracking-wider text-slate-400">
-              Current focus
-            </p>
-            <p className="mt-1 text-sm font-extrabold text-ink">
-              Insight → Impact
-            </p>
-          </div>
           <div className="relative ml-auto aspect-[4/5] w-[88%] overflow-hidden rounded-[2rem] bg-navy shadow-[0_35px_90px_rgba(15,42,86,.22)] sm:rounded-[3rem]">
             <Image
-              src="/images/profile.png"
-              alt="Portrait of Thanawat, an Information Technology student, working at a data analysis desk"
+              src="/images/myprofile.jpg"
+              alt="Portrait of Chisanupong Inlin"
               fill
               priority
               sizes="(max-width: 1024px) 88vw, 42vw"
-              className="object-cover"
+              className="object-cover object-center"
             />
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 to-transparent p-7 pt-28 text-white">
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-cyan">
@@ -106,15 +97,6 @@ export default function HeroSection() {
                 Curious about the space where people, process, technology, and
                 evidence meet.
               </p>
-            </div>
-          </div>
-          <div className="absolute -bottom-6 right-0 flex items-center gap-3 rounded-2xl border border-slate-100 bg-white p-4 shadow-soft">
-            <div className="grid size-10 place-items-center rounded-xl bg-blue/10 text-blue">
-              <ArrowDownRight size={20} />
-            </div>
-            <div>
-              <p className="text-xl font-black text-ink">5+</p>
-              <p className="text-xs font-semibold text-slate-500">Case studies</p>
             </div>
           </div>
         </div>

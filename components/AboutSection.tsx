@@ -1,7 +1,6 @@
 import {
   BookOpen,
   Compass,
-  Focus,
   GraduationCap,
   Lightbulb,
   Users,
@@ -13,17 +12,12 @@ const infoCards = [
   {
     icon: GraduationCap,
     label: "Education",
-    value: "B.Sc. Information Technology",
+    value: "2023 - Thammasat Khlongluang Wittayakom School - GPA 3.30\n2024 - present Information Technology at Bangkok University with GPA 3.50",
   },
   {
     icon: Compass,
     label: "Career interest",
     value: "BA, SA & Data Analytics",
-  },
-  {
-    icon: Focus,
-    label: "Current focus",
-    value: "Requirements & data storytelling",
   },
 ];
 
@@ -65,17 +59,12 @@ export default function AboutSection() {
             />
             <div className="space-y-5 text-[15px] leading-7 text-slate-600">
               <p>
-                At <strong className="font-bold text-ink">Example University</strong>,
+                At <strong className="font-bold text-ink">Bangkok University</strong>,
                 I have explored the full path from stakeholder interviews and
                 process mapping to prototypes, dashboards, and working technical
                 proofs of concept.
               </p>
-              <p>
-                My career goal is to grow into an analyst who can bridge
-                conversations between users and technical teams—asking the right
-                questions, documenting decisions, and helping teams build what
-                truly matters.
-              </p>
+              
             </div>
             <div className="mt-7 flex flex-wrap gap-3">
               {strengths.map(({ icon: Icon, label }) => (
@@ -90,7 +79,7 @@ export default function AboutSection() {
           </div>
         </div>
 
-        <div className="mt-20 grid gap-4 md:grid-cols-3">
+        <div className="mt-20 grid gap-4 md:grid-cols-2">
           {infoCards.map(({ icon: Icon, label, value }, index) => (
             <article
               key={label}
@@ -107,7 +96,9 @@ export default function AboutSection() {
               <p className="mt-7 text-xs font-bold uppercase tracking-[0.15em] text-slate-400">
                 {label}
               </p>
-              <p className="mt-2 font-extrabold leading-6 text-ink">{value}</p>
+              <p className="mt-2 whitespace-pre-line font-extrabold leading-6 text-ink">
+                {value}
+              </p>
             </article>
           ))}
         </div>

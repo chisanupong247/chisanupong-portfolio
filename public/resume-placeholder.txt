@@ -1,4 +1,4 @@
-THANAWAT KITTISAK — RÉSUMÉ PLACEHOLDER
+CHISANUPONG INLIN — RÉSUMÉ PLACEHOLDER
 
 Replace this file with your final résumé PDF and update the link in components/HeroSection.tsx.
 
