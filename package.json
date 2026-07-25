@@ -4,9 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vinext dev",
-    "build": "vinext build && node scripts/prepare-hosting.mjs",
-    "start": "vinext start",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "dev:sites": "vinext dev",
+    "build:sites": "vinext build && node scripts/prepare-hosting.mjs",
+    "start:sites": "vinext start",
     "lint": "eslint ."
   },
   "dependencies": {
