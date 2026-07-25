@@ -8,6 +8,8 @@ export type Activity = {
   imageAlt: string;
   imageWidth: number;
   imageHeight: number;
+  date?: string;
+  dateTime?: string;
 };
 
 export const activities: Activity[] = [
@@ -20,6 +22,8 @@ export const activities: Activity[] = [
     imageAlt: "BU Mini Hackathon event presentation",
     imageWidth: 4000,
     imageHeight: 2252,
+    date: "28 September 2025",
+    dateTime: "2025-09-28",
   },
   {
     id: 2,
@@ -33,6 +37,8 @@ export const activities: Activity[] = [
       "Attending the Cybersecurity and IT Empowering Day event at Bangkok University",
     imageWidth: 2046,
     imageHeight: 2558,
+    date: "9 May 2025",
+    dateTime: "2025-05-09",
   },
   {
     id: 3,
@@ -46,5 +52,22 @@ export const activities: Activity[] = [
       "Project team exhibiting an AI Workflow Automation project at IT Empowering Day",
     imageWidth: 3024,
     imageHeight: 1701,
+    date: "21 May 2026",
+    dateTime: "2026-05-21",
+  },
+  {
+    id: 4,
+    title: "BU Cyber Fortress Challenge & Career Expo",
+    descriptionPrefix: "Participated in the ",
+    descriptionLead: "BU Cyber Fortress Challenge & Career Expo",
+    description:
+      ", taking part in a cybersecurity hackathon and exploring internship opportunities through career booths hosted by leading technology companies.",
+    image: "/activities/cyberfortress.png",
+    imageAlt:
+      "Attending the BU Cyber Fortress Challenge and Career Expo at Bangkok University",
+    imageWidth: 1774,
+    imageHeight: 1246,
+    date: "10 February 2026",
+    dateTime: "2026-02-10",
   },
 ];

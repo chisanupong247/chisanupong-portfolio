@@ -1,6 +1,5 @@
 import {
   ArrowRight,
-  Download,
   Github,
   Linkedin,
   Mail,
@@ -46,17 +45,16 @@ export default function HeroSection() {
             <span className="text-cyan">/</span> Data Analyst
           </p>
           <p className="mt-5 max-w-xl text-base leading-8 text-slate-600 sm:text-lg">
-            I connect business needs, thoughtful system design, and data to turn
-            complex problems into clear, testable solutions. Currently looking
-            for opportunities to learn with a product-minded team.
+            I am passionate about transforming business challenges into
+            practical digital solutions through system analysis, data, and
+            modern technologies. With experience in AI, IoT, and web application
+            development, I enjoy designing systems that improve efficiency and
+            deliver measurable business value.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <a href="#projects" className="btn-primary">
               View my projects <ArrowRight size={17} />
-            </a>
-            <a href="/resume-placeholder.txt" download className="btn-secondary">
-              <Download size={17} /> Download résumé
             </a>
           </div>
 

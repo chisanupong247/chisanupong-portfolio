@@ -59,6 +59,14 @@ export default function ExperienceSection() {
                       "Add a description of this activity, your role, and what you learned."
                     )}
                   </p>
+                  {activity.date && (
+                    <time
+                      dateTime={activity.dateTime}
+                      className="mt-6 block text-right text-xs font-bold uppercase tracking-wider text-cyan"
+                    >
+                      {activity.date}
+                    </time>
+                  )}
                 </div>
               </article>
             ))}
