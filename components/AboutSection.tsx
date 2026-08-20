@@ -6,7 +6,7 @@ const infoCards = [
     icon: GraduationCap,
     label: "Education",
     value:
-      "2020 - 2023\nThammasat Khlongluang Wittayakom School - GPA 3.30\n2024 - present\nInformation Technology at Bangkok University with GPA 3.57",
+      "2024 - present\nSchool of Information Technology and Innovation at Bangkok University with GPA 3.57\n2020 - 2023\nThammasat Khlongluang Wittayakom School - GPA 3.30",
   },
   {
     icon: Compass,
